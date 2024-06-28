@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    var faculties = [
+
+        {
+            name: "JP",
+            salary: 1 + "cr"
+        },
+        {
+            name: "Jeel",
+            salary: 2 + "cr"
+
+        },
+        {
+            name: "Avnil",
+            salary: 10 + "cr"
+
+        }]
+
+    for (facutly of faculties) {
+        console.log(facutly.Name + " " + facutly.Salary);
+
+    }
+    console.log("---------------------");
+    var students = [
+
+        {
+            name: "JP",
+            cpi: 10
+        },
+        {
+            name: "Jeel",
+            cpi: 9.8
+
+        },
+        {
+            name: "Avnil",
+            cpi: 5.6
+
+        }]
+
+    for (student of students) {
+        console.log(student.name + " " + student.cpi);
+
+    }
+    console.log("---------------------");
+
+    var products = [
+
+        {
+            name: "keyboard",
+            price: 1000
+        },
+        {
+            name: "mouse",
+            price: 800
+
+        },
+        {
+            name: "laptop",
+            price: 50000
+
+        }]
+
+    for (product of products) {
+        console.log(product.name + " " + product.price);
+
+    }
+    console.log("-------------------------------");
+
+    var arr = [1, 22, 13, 41, 5];
+
+    arr.push(6);
+    console.log(arr);
+    arr.pop();
+    console.log(arr);
+    arr.shift(2);
+    console.log(arr);
+    arr.unshift(3);
+    console.log(arr);
+    arr.sort();
+    console.log(arr);
+
+    arr.sort(function (a, b) {
+        return a - b;
+    });
+    console.log(arr);
+    arr.splice(2, 4);
+    console.log(arr);
+
+
+
+</script>

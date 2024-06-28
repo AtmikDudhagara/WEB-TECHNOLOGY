@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        .a {
+            width: 100%;
+        }
+
+        .b {
+            width: 100%;
+        }
+
+        .c {
+            width: 100%;
+        }
+
+        .g {
+            width: auto;
+            !important
+        }
+
+        button {
+            background-color: green;
+            width: 425px;
+            height: 65px;
+        }
+
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>STUDENT REGESTRATION FORM</h1>
+    <hr>
+    <form>
+        <div class="a" style="margin-bottom: 25px;">First name<br>
+            <input type="text" placeholder="Firstname" required>
+        </div>
+        <div class="b" style="margin-bottom: 25px;">Middle name<br>
+            <input type="text" placeholder="Middlename" required>
+        </div>
+        <div class="c" style="margin-bottom: 25px;">Last name<br>
+            <input type="text" placeholder="Lastname" required>
+        </div>
+        <div style="margin-bottom: 25px;">course:
+            <select name="course">
+                <option>Course</option>
+                <option>BTech</option>
+                <option>BCA</option>
+                <option>BBA</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 25px;">Gender:
+            <input type="radio" name="a" class="g">Male
+            <input type="radio" name="a" class="g">Female
+            <input type="radio" name="a" class="g">Others
+        </div>
+        <div style="margin-bottom: 25px;">Phone:<br>
+            <input type="number" placeholder="Phone no." required>
+        </div>
+        <div>Current Address:<br>
+            <textarea cols="50" rows="6" placeholder="Current Address"></textarea>
+        </div>
+        <div style="margin-bottom: 25px;">Email:<br>
+            <input type="email" placeholder="Enter Email">
+        </div>
+        <div style="margin-bottom: 25px;">Password:<br>
+            <input type="password" placeholder="Enter Password" required>
+        </div>
+        <div style="margin-bottom: 25px;">Re-type Password:<br>
+            <input type="password" placeholder="Re-type Password" required>
+        </div>
+        <hr>
+        <button style="margin-left: 480px;">Register</button>
+        <button style="margin-left: 25px;">Cancel</button>
+    </form>
+</body>
+
+</html>

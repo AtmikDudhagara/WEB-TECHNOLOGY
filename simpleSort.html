@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let arr = [];
+    let length = parseInt(prompt("Enter the number for length"));
+
+    for(let i=0;i<length;i++)
+    {
+        arr[i] = parseInt(prompt("Enter value"));
+    }
+    console.log(arr);
+
+    arr.sort(function(a,b){
+        return a-b;
+    });
+    console.log(arr);
+</script>

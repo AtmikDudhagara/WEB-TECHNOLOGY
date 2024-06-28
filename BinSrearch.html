@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    var num = [];
+
+    var a = parseInt(prompt("enter the size of an array"));
+    document.write("enter the elements of an array");
+    for (let i = 0; i <= a; i++) {
+        num[i] = parseInt(prompt());
+    }
+    console.log(num);
+    var b = parseInt(prompt("enter the element"));
+    let mid = 0;
+    var firstelement = num[0];
+    var lastelement = num.length - 1;
+    for (let i = 0; i < a; a++) {
+        mid = (firstelement + lastelement) / 2;
+        if (mid < b) {
+            mid++;
+        }
+        else if (mid > b) {
+            mid--;
+        }
+        else {
+            document.write(num[i]);
+        }
+    }
+</script>
